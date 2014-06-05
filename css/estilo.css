@@ -1,5 +1,20 @@
 body{padding-right:10%;padding-left:10%;font-family:'Open Sans'}
-header{background:#1e90bd;color:#fff;position:absolute;width:80%;height:85px;}
+header{background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0.01, #47A4C9),
+	color-stop(0.99, #1E90BD),
+	color-stop(1, #485459),
+	color-stop(1, #1E90BD),
+	color-stop(1, #47A4C9)
+);
+background-image: -o-linear-gradient(bottom, #47A4C9 1%, #1E90BD 99%, #485459 100%, #1E90BD 100%, #47A4C9 100%);
+background-image: -moz-linear-gradient(bottom, #47A4C9 1%, #1E90BD 99%, #485459 100%, #1E90BD 100%, #47A4C9 100%);
+background-image: -webkit-linear-gradient(bottom, #47A4C9 1%, #1E90BD 99%, #485459 100%, #1E90BD 100%, #47A4C9 100%);
+background-image: -ms-linear-gradient(bottom, #47A4C9 1%, #1E90BD 99%, #485459 100%, #1E90BD 100%, #47A4C9 100%);
+background-image: linear-gradient(to bottom, #47A4C9 1%, #1E90BD 99%, #485459 100%, #1E90BD 100%, #47A4C9 100%);
+color:#fff;position:absolute;width:80%;height:85px;margin-top:1px;}
 header figure{float:left}
 header #botones{margin-right:10px;float:right;}
 header #botones ul{list-style:none;}
